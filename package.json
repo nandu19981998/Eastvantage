@@ -1,0 +1,46 @@
+{
+  "name": "eastvantage-react",
+  "version": "1.0.0",
+  "description": "React application Page to display Fullname and Email address from given endpoint",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack/webpack.dev.config.js",
+    "build": "webpack --config webpack/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandu19981998/Eastvantage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandu19981998/Eastvantage/issues"
+  },
+  "homepage": "https://github.com/nandu19981998/Eastvantage#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "^7.22.3",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "purgecss-webpack-plugin": "^5.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-merge": "^5.9.0"
+  }
+}
